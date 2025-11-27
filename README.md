@@ -1,2 +1,3 @@
-# web_design
+# Web design
 Verkefni_7
+
