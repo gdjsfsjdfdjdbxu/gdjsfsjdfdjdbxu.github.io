@@ -1,0 +1,45 @@
+nav{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding:1em;
+    border:solid 1px black;
+    border-bottom: burlywood 1px solid;
+}
+nav>div{
+    text-align: center;
+}
+header{
+    text-align:center;
+    border-bottom: 1px solid #88f;
+}
+h1{
+    font-style: italic;
+    color:burlywood;
+    padding-top: 1em
+}
+header>h4{
+    padding-bottom: 1em;
+}
+main {
+    display:grid;
+    border:1px solid black;
+    padding:0em 1em 1em 1em;
+    gap:1em;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+blockquote{
+    border:2px solid;
+}
+footer{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: 1em;
+    border: 1px solid;
+    border-top: blue;
+}
+.foot{
+    font-weight: bold;
+}
+footer>div{
+    text-align: center;
+}

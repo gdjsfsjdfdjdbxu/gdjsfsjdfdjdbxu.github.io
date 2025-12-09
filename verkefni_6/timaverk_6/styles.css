@@ -1,0 +1,57 @@
+body {
+    font-family: sans-serif;
+}
+header h1 {
+    margin-bottom: -2em;
+    margin-left: 1em;
+    position: relative;
+}
+.base-bg {
+    padding:8px;
+    background-color:lime;
+}
+nav {
+    background-image: linear-gradient(to left, rgb(255,255,255), rgb(128,196,255));
+    padding: 4px;
+}
+nav li {
+    padding:4px;
+}
+nav a:link {
+    color: aqua;
+    background-color: black;
+    padding:4px
+}
+nav a:visited {
+    color:yellow;
+}
+a:link {
+    color: blueviolet;
+}
+a:visited {
+    color:lime;
+}
+.container-col2 {
+    display: grid;
+}
+img {
+    max-width: 100%;
+    margin:0 auto;
+}
+
+footer {
+    background-image: linear-gradient(to left, rgb(255,255,255), rgb(128,196,255));
+    padding: 8px;
+}
+
+@media screen and (min-width:37.5em) {
+    .container-col2 {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media screen and (min-width:48em) {
+    footer {
+        display:grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+}

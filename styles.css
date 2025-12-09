@@ -49,6 +49,7 @@ header {
     border:2px solid black;
     margin:1em;
     background-image:-moz-radial-gradient(rgb(255,255,255), rgb(245, 169, 255), rgb(91, 213, 255) 95%);
+    font-size: 100%;
 }
 main {
     padding: 8px;
@@ -58,6 +59,9 @@ article {
 }
 article h4 {
     margin-left:4px
+}
+article h3 {
+    margin-left: 4px;
 }
 article p{
     padding:4px;
@@ -78,11 +82,9 @@ aside audio{
     width:75%;
 }
 footer {
-    display:grid;
     background-color: lightpink;
     padding:1.5em;
     border:2px solid black;
-    grid-template-columns: 3fr 2fr;
 }
 footer h3 {
     
@@ -99,6 +101,11 @@ footer>ul {
     nav>div {
         width:40%;
     }
+footer {
+        padding:2em;
+        display:grid;
+        grid-template-columns: 3fr 3fr 2fr;
+    }
 }
 
 @media screen and (min-width:768px) {
@@ -108,8 +115,12 @@ footer>ul {
         clear:both;
         margin:4px;
     }
+    
 }
 @media screen and (min-width:960px) {
+    header {
+
+    }
     main {
         display:grid;
         grid-template-columns: 2fr 1fr;
@@ -118,10 +129,17 @@ footer>ul {
         flex-direction: row;
     }
     nav>div {
-        height:2em;
-        width:20px;
+        width:auto;
     }
 }
 @media screen and (min-width:1280px) {
+    main {
+        grid-template-columns: 3fr 1fr;
+    }
+    .wrapper {
+
+    }
+}
+@media screen and (min-width:1920px) {
     
 }
