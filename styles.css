@@ -58,10 +58,10 @@ article {
     background-color: rgba(44, 255, 255, 0.8);
 }
 article h4 {
-    margin-left:4px
+    margin-left:4px;
 }
 article h3 {
-    margin-left: 4px;
+padding:4px;
 }
 article p{
     padding:4px;
@@ -74,7 +74,7 @@ iframe {
     border:1px solid black;
 }
 aside {
-    background-color: rgba(0,255,255,.5);
+    background-color: rgba(44,255,255,.5);
     padding:4px;
 }
 aside audio{
@@ -86,17 +86,6 @@ footer {
     padding:1.5em;
     border:2px solid black;
 }
-footer h3 {
-    
-}
-footer h4 {
-
-}
-footer>ul {
-    
-}
-
-
 @media screen and (min-width:600px) {
     nav>div {
         width:40%;
@@ -136,8 +125,12 @@ footer {
     main {
         grid-template-columns: 3fr 1fr;
     }
+    .body {
+        max-width: 1280px;
+        margin:0 auto;
+    }
     .wrapper {
-
+        background-image: url("backgrounds/landscape_backround.jpeg");
     }
 }
 @media screen and (min-width:1920px) {
