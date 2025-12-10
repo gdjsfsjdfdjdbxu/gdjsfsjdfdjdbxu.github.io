@@ -138,7 +138,10 @@ footer a {
         max-width: 1280px;
         margin:0 auto;
     }
-    body {
+}
+
+@media screen and (min-width:1920px) {
+     body {
         background-image: url("backgrounds/landscape_backround.jpeg");
     }
 }
